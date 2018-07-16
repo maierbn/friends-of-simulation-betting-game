@@ -1,0 +1,230 @@
+.centered
+{
+  margin: auto;
+  width: 200px;
+  border: 1px solid black;
+}
+.infobox
+{
+  background-color:#cdecd0;
+  border: 1px solid #22570f;
+  display:none;
+  padding:8px;
+}
+.failed
+{
+  color:red;
+  background-color:#fee;
+  border: 1px solid #f77;
+}
+.header.left 
+{
+  margin-left:10%;
+  padding:2%;
+  text-align:right;
+}
+
+.header 
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 100%;
+  display:inline-block;
+  vertical-align:top;
+}
+.header.right
+{
+  padding-top:2%;
+  padding-left:2%;
+  padding-bottom:2%;
+}
+img.header 
+{
+  max-width:200px;
+  width:30%;
+}
+.header-top
+{
+  /*height:150px;*/
+  height:20%;
+}
+
+table.users-table
+{
+}
+
+td.users-table
+{
+  /*border: 1px dotted #aaa;*/
+  padding: 20px;
+  padding-bottom:5px;
+  padding-top:5px;
+  background-color: #dededa;
+}
+
+th.users-table
+{
+  font-weight:bold;
+}
+
+ul.sortable
+{
+  padding-left:0px !important;
+  margin-left:-5px;
+}
+
+div.abbr
+{
+  font-weight:bold;
+  width:40px;
+  float:left;
+}
+img.nation
+{
+  width:40px;
+  margin-bottom:-5px;
+  float:left;
+  position:relative;
+  top:5px;
+  padding-right:10px;
+}
+
+.nation.ui-btn
+{
+}
+li.ui-state-default.nation
+{
+  text-align:right;
+}
+
+div.nation
+{
+  margin-left:20px;
+  margin-right:20px;
+  float:left;
+  /*clear:both;*/
+}
+.nation.rankings
+{
+  display:inline-block;
+  width:50%;
+}
+div.nation.name
+{
+  width:135px;
+}
+a.ui-btn.nation
+{
+  margin:0;
+}
+li.nation
+{
+  margin:4px;
+  padding:10px;
+  vertical-align:center;
+  list-style-type:none;
+  background-color:#efede1;
+  cursor:grab;
+}
+
+li.nation:active
+{
+  cursor:grabbing;
+}
+
+td
+{
+  margin: 0 0 1.25em;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #333;
+  text-shadow: 0 1px 0 #f3f3f3;
+}
+.date
+{
+  /*margin-top:20px;
+  margin-bottom:20px;*/
+  color:gray;
+  min-width:175px;
+  float:left;
+}
+td.nation0, td.nation1
+{
+  min-width:220px;
+}
+div.nation0,div.nation1,div.goals
+{
+  display: inline-block;
+  float:left;
+}
+.goals
+{
+  font-size:large;
+  font-weight:bold;
+  padding: 3px;
+  min-width:50px;
+}
+td.goals0
+{
+  padding-left:5px;
+}
+td.goals1
+{
+  padding-right:10px;
+}
+.inplay
+{
+  color:red;
+}
+td.nation0
+{
+  text-align:right;
+}
+td.nation1
+{
+  text-align:left;
+}
+span.value 
+{
+  color:#f80;
+}
+.score
+{
+  text-align:right;
+}
+table.ranking
+{
+  border: 1px solid gray;
+}
+.nation_ranking
+{
+  width:40px;
+}
+.custom-label-flipswitch.ui-flipswitch .ui-btn.ui-flipswitch-on {
+    text-indent: -3.4em;
+}
+.custom-label-flipswitch.ui-flipswitch .ui-flipswitch-off {
+    text-indent: 0.5em;
+}
+.ranking-label {
+    float:left;
+    padding:10px;
+    margin-left:30px;
+    margin-right:10px;
+}
+.buyable {
+  background-color:#bdf0ca;
+}
+
+.sum {
+  width:50%;
+}
+
+.other-user {
+  padding-left:10px;
+}
+
+.login_name {
+  color:silver;
+}
